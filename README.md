@@ -13,4 +13,4 @@ to run:
 - to Print all countries specific data according to date type: ./print_by_date.o --date <yyyy-MM-dd> --key <Active/Death/Recovered/Confirmed>
 - to Export data by country to CSV type: ./country_data_to_csv.o --country <country name>
   
-*to clean all compiltion products run: make clean
+(to clean all compiltion products run: make clean)
