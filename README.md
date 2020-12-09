@@ -9,8 +9,11 @@ to run:
 4.      make
 5.      export LD_LIBRARY_PATH=`pwd`
 
-- to Print a country's “graph” according to key type:  ./print_graph.o --key <Active/Death/Recovered/Confirmed> --country <country name>
-- to Print all countries specific data according to date type: ./print_by_date.o --date <yyyy-MM-dd> --key <Active/Death/Recovered/Confirmed>
-- to Export data by country to CSV type: ./country_data_to_csv.o --country <country name>
+- to Print a country's “graph” according to key type: 
+      ./print_graph.o --key <Active/Death/Recovered/Confirmed> --country <country name>
+- to Print all countries specific data according to date type: 
+      ./print_by_date.o --date <yyyy-MM-dd> --key <Active/Death/Recovered/Confirmed>
+- to Export data by country to CSV type: 
+      ./country_data_to_csv.o --country <country name>
   
 (to clean all compiltion products run: make clean)
